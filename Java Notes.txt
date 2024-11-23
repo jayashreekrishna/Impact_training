@@ -1,0 +1,35 @@
+NAME : JAYASHREE K
+DOMAIN : TESTING
+JAVA
+1. Dictionary in Java?
+	In Java, Dictionary is the list of key-value pairs. We can store, retrieve, remove, get, and put values in the dictionary by using the Java Dictionary class. 
+Java Dictionary class that stores data in key-value pairs just like the Map interface. Dictionary is typically represented by a collection class that stores key-value pairs. The most common implementations are HashMap, TreeMap, and Hashtable. These collections allow efficient access to values through keys.
+When to use - It is important to consider factors such as performance requirements, thread safety, order of elements, and null value handling. 
+2. Difference between Hashset, Hashmap, Treeset
+Hashset - Stores a collection of unique elements (no duplicates allowed). Does not maintain any specific order of elements. The order of elements is based on their hash codes. Allows one null element.
+When to Use: When you need a fast, unordered collection of unique elements. Ideal for situations where duplicate elements should not be allowed, and order doesn't matter (e.g., storing unique IDs).
+Hashset - Stores key-value pairs (associative array or dictionary). Does not maintain any specific order of elements.Allows one null key and multiple null values.
+When to Use: When you need to store key-value pairs and efficiently access values via keys. Ideal for situations where you need to quickly look up values based on a unique key.
+Treeset -  Stores a collection of unique elements in sorted order.  Does not allow null elements because null cannot be compared to other elements for ordering. Maintains natural order of elements.
+When to Use: When you need sorted unique elements (e.g., storing a sorted list of names, dates, or IDs). When you need efficient operations on ranges of elements, such as finding all elements within a given range.
+3. Why map is not in collection?
+	A Map manages associations between keys and values, while Collection manages individual elements (like a list or set). This conceptual difference makes it more appropriate for Map to be a separate interface rather than part of the Collection hierarchy.
+4. Why Interface is used as base for collections?
+	An interface is used as the base for collections in Java instead of a class to provide flexibility and abstraction. It allows different classes (like ArrayList, HashSet) to implement the same methods, enabling the use of various data structures interchangeably without changing the code that interacts with them.
+5. Rules to declare interface names.
+Valid Characters: Must start with a letter, underscore (_), or dollar sign ($). Subsequent characters can be letters, digits, underscores, or dollar signs.
+Case Sensitivity: Names are case-sensitive (e.g., MyInterface and myinterface are different).
+Naming Convention: Use PascalCase (capitalize each word). Names should describe the interface's purpose (e.g., Runnable, Serializable).
+No Reserved Keywords: Cannot use Java keywords (e.g., class, public).
+6. throw and throws - throw and throws are both used for exception handling, but they serve different purposes
+throw:
+Purpose: Used to explicitly throw an exception from within a method or block of code.
+Where to Use: Inside a method or block of code, when you want to manually throw an exception 
+throws:
+Purpose: Used in a method signature to declare that a method can throw one or more exceptions. This informs the caller that it must handle those exceptions (either with a try-catch block.
+Where to Use: In the method signature when you know that the method might throw a checked exception that should be handled outside the method.
+7. Interface - Comparable, Comparator, List, Set, Queue, Map, SortedSet, NavigableSet, SortedMap, NavigableMap, Iterator, ListIterator, Iterable, Collection, Deque
+
+
+
+	
