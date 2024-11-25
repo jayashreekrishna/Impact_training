@@ -1,0 +1,38 @@
+NAME: JAYASHREE K
+DATE: 25/11/2024
+DOMAIN: TESTING
+
+AZURE ACCOUNT
+
+ 
+
+AZURE STORAGE ACCOUNT
+
+STEP 01: Creating a Storage Account.
+ 
+
+STEP 02: Add name for resource group and create a storage account name.
+ 
+
+STEP 03: Make it default for Advanced, Networking, Data protection, Encryption and Tags
+ 
+
+ 
+
+ 
+
+ 
+
+STEP 04: Click on Review+Create to create your storage account. It will validate your details
+
+ 
+
+
+STEP 05: Successfully Deployed.
+ 
+
+STEP 06: Successfully created a Azure storage account with Container, Files, Queues, Tables.
+ 
+
+
+
